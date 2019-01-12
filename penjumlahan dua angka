@@ -1,0 +1,24 @@
+#include<iostream.h>
+void main()
+{
+
+int a,b;
+float tambah,kurang,kali,bagi;
+
+cout<<"PENJUMLAHAN DUA ANGKA\n"<<endl;
+cout<<"Masukkan bilangan pertama : ";
+cin>>a;
+cout<<"Masukkan bilangan kedua : ";
+cin>>b;
+
+tambah = a + b;
+kurang = a - b;
+kali = a * b;
+bagi = a / b;
+
+cout<<"Tambah : "<<tambah<<endl;
+cout<<"Kurang : "<<kurang<<endl;
+cout<<"Kali : "<<kali<<endl;
+cout<<"Bagi : "<<bagi<<endl;
+
+}
